@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Motto = () => {
   return (
     <div className="flex flex-col pt-[80px] w-full h-fit bg-[#F5F5F5] bg-opacity-80 justify-center items-center">
-      <div className="flex flex-row justify-center items-center xl:gap-x-[600px] sm:gap-x-[260px] md:gap-x-[300px] lg:gap-x-[380px] xl:px-[70px] sm:px-[10px] pb-[40px]">
+      <div className="flex flex-row justify-center items-center xl:gap-x-[600px] sm:gap-x-[180px] md:gap-x-[300px] lg:gap-x-[380px] xl:px-[70px] sm:px-[10px] pb-[40px]">
         <div className="relative flex flex-col xl:w-[55%] sm:w-[45%]">
           <p className="text-[#4473C5] font-[700] xl:text-[70px] sm:text-[35px] md:text-[45px] lg:text-[55px] pt-[10px] sm:pt-[0px] sm:top-[-40px] lg:top-[-30px] leading-tight">
             Projek
