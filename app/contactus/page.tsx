@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 const page = () => {
   return (
-    <div>
+    <div className='w-screen h-screen'>
         <Navbar/>
         <Header4/>
         <ContactUs/>
