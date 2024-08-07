@@ -13,16 +13,16 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-[140px] mx-auto flex flex-row items-center justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center sm:gap-x-[40px] md:gap-x-[60px] lg:gap-x-[100px] xl:gap-x-[260px] px-4 sm:px-0 md:px-0 lg:px-8 shadow-md bg-white">
-      <div className="relative w-[120px] h-[55px] sm:w-[120px] sm:h-[55px] md:w-[140px] md:h-[60px] lg:w-[160px] lg:h-[70px] xl:w-[180px] xl:h-[90px]">
+    <div className="w-full h-[160px] mx-auto flex flex-row items-center justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center sm:gap-x-[40px] md:gap-x-[60px] lg:gap-x-[100px] xl:gap-x-[200px] gap-x-[30px] px-4 sm:px-0 md:px-0 lg:px-8 shadow-md bg-white">
+      <div className="relative w-[110px] h-[65px] sm:w-[120px] sm:h-[65px] md:w-[140px] md:h-[70px] lg:w-[160px] lg:h-[70px] xl:w-[180px] xl:h-[90px]">
         <Link href="/landingpage">
           <Image src={logo} alt="logo" layout="fill" objectFit="contain" />
         </Link>
       </div>
-      <div className="sm:hidden text-center flex-grow">
-        <p className="text-[#4473C5] font-bold text-xl">Triandi Kreasi Utama</p>
+      <div className="sm:hidden text-center flex-grow justify-center items-center flex">
+        <p className="text-[#4473C5] font-bold text-[25px]">Triandi Kreasi Utama</p>
       </div>
-      <div className="hidden sm:flex md:flex lg:flex xl:flex flex-row sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[20px] items-center gap-x-8 sm:gap-x-[20px] md:gap-x-[25px] lg:gap-x-[40px] xl:gap-x-[60px] text-black font-semibold">
+      <div className="hidden sm:flex md:flex lg:flex xl:flex flex-row sm:text-[14px] md:text-[14px] lg:text-[16px] xl:text-[20px] items-center gap-x-8 sm:gap-x-[20px] md:gap-x-[25px] lg:gap-x-[40px] xl:gap-x-[60px] text-black font-semibold">
         <Link className="hover:text-[#4473C5]" href="/landingpage">
           Home
         </Link>
@@ -44,8 +44,8 @@ const Navbar = () => {
           Hubungi Kami
         </Link>
       </div>
-      <div className="sm:hidden">
-        <button onClick={toggleSidebar} className="text-2xl">
+      <div className="sm:hidden w-[40px]">
+        <button onClick={toggleSidebar} className="text-[28px]">
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
             Projek
           </Link>
           <Link
-            className="hover:text-[#4473C5] text-white px-4 py-2"
+            className="hover:text-[#4473C5]"
             href="/contactus"
             onClick={toggleSidebar}
           >

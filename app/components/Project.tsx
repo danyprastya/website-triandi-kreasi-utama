@@ -60,30 +60,30 @@ const Project = () => {
     <div className="w-full">
       <div className="flex flex-col xl:p-[40px] p-[15px] bg-[#4473C5] text-white justify-center items-center">
         <div className="flex flex-col">
-          <div className="flex flex-row xl:gap-x-[200px] gap-x-[80px] sm:gap-x-[100px] md:gap-x-[140px] lg:gap-x-[180px] justify-center items-center text-white">
+          <div className="flex flex-row xl:gap-x-[200px] gap-x-[60px] sm:gap-x-[100px] md:gap-x-[140px] lg:gap-x-[180px] justify-center items-center text-white">
             <motion.p
-              className="w-[64%] font-[500] xl:text-[35px] sm:text-[22px] md:text-[27px] lg:text-[35px] text-[18px]"
+              className="w-[64%] font-[500] xl:text-[35px] sm:text-[22px] md:text-[27px] lg:text-[35px] text-[20px]"
               ref={pelayananRef}
               initial={{ x: -60, opacity: 0 }}
               animate={pelayananControls}
             >
               Pelayanan dengan Tingkat Presisi Yang Akurat dan Terpercaya.
             </motion.p>
-            <p className="w-[30%] font-[400] xl:text-[23px] sm:text-[16px] md:text-[19px] lg:text-[23px] text-[12px]">
+            <p className="w-[30%] font-[400] xl:text-[23px] sm:text-[16px] md:text-[19px] lg:text-[23px] text-[14px]">
               Berikut adalah beberapa contoh dari projek yang telah kami
               kerjakan.
             </p>
           </div>
-          <div className="flex flex-row xl:pt-[60px] pt-[45px] justify-between items-center">
+          <div className="flex flex-row xl:pt-[60px] pt-[55px] justify-between items-center">
             <div className="flex flex-row justify-center items-center gap-x-[10px]">
-              <div className="xl:w-[60px] w-[25px] sm:w-[30px] md:w-[40px] lg:w-[60px] xl:h-[3px] h-[1px] bg-white" />
-              <p className="xl:text-[30px] sm:text-[24px] md:text-[28px] lg:text-[30px] text-[20px] font-[470]">
+              <div className="xl:w-[60px] w-[35px] sm:w-[30px] md:w-[40px] lg:w-[60px] xl:h-[3px] h-[1px] bg-white" />
+              <p className="xl:text-[30px] sm:text-[24px] md:text-[28px] lg:text-[30px] text-[22px] font-[470]">
                 Projek Kami
               </p>
             </div>
             <Link
               href="../projek"
-              className="xl:w-[240px] sm:w-[180px] md:w-[220px] lg:w-[240px] w-[160px] h-[40px] xl:h-[75px] sm:h-[50px] md:h-[65px] lg:h-[75px] flex justify-center items-center bg-white rounded-full xl:p-[15px] p-[15px] xl:px-[30px] text-black text-center xl:text-[22px] sm:text-[16px] md:text-[19px] lg:text-[22px] text-[12px] font-[700] hover:bg-[#2E4F89] hover:text-white"
+              className="xl:w-[240px] sm:w-[180px] md:w-[220px] lg:w-[240px] w-[180px] h-[50px] xl:h-[75px] sm:h-[50px] md:h-[65px] lg:h-[75px] flex justify-center items-center bg-white rounded-full xl:p-[15px] p-[15px] xl:px-[30px] text-black text-center xl:text-[22px] sm:text-[16px] md:text-[19px] lg:text-[22px] text-[14px] font-[700] hover:bg-[#2E4F89] hover:text-white"
             >
               Lihat <br />
               Selengkapnya

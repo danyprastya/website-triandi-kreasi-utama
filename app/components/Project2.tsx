@@ -49,7 +49,7 @@ const Project2 = () => {
     <div className="embla w-full p-5 justify-center items-center flex flex-col mt-[40px]">
       <div className="embla__viewport " ref={emblaRef}>
         <div className="embla__container flex">
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={infrastruktur}
@@ -60,7 +60,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={konstruksirumah}
@@ -71,7 +71,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={galian}
@@ -82,7 +82,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={interior}
@@ -93,7 +93,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={maintenance}
@@ -104,7 +104,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={aspal}
@@ -115,7 +115,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={mesjid}
@@ -126,7 +126,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={rumah}
@@ -137,7 +137,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={desain}
@@ -148,7 +148,7 @@ const Project2 = () => {
               />
             </div>
           </div>
-          <div className="embla__slide flex items-center justify-center min-w-[100%]">
+          <div className="embla__slide flex items-center justify-center max-w-screen">
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={desain1}

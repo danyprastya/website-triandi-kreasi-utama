@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function landingpage() {
   return (
-      <div className="max-w-screen-xl max-h-screen-xl">
+      <div className="max-w-screen max-h-screen">
         <Navbar/>
         <Motto/>
         <Stats/>

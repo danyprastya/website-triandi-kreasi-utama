@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 
 export default function aboutus () {
   return (
-    <div className='w-screen h-screen'>
+    <div className='max-w-screen max-h-screen'>
         <Navbar/>
         <Header1/>
         <AboutUs1/>
