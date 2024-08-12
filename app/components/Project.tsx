@@ -91,7 +91,7 @@ const Project = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row relative z-0 bg-[#4473C5] xl:h-[260px] lg:h-[220px] justify-center items-center sm:h-[180px] h-[160px] w-full top-[-5px]">
+      <div className="flex flex-row relative z-0 bg-[#4473C5] h-[160px] xl:h-[260px] lg:h-[220px] sm:h-[180px] justify-center items-center  w-full top-[-5px]">
         <div className="flex w-screen flex-row mt-[40px] sm:mt-[60px] md:mt-[70px] lg:mt-[80px] justify-center items-center xl:gap-x-[80px] sm:gap-x-[30px] lg:gap-x-[70px] gap-x-[20px]">
           <motion.div
             ref={infrastrukturRef}

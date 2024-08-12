@@ -21,6 +21,7 @@ import mesjid from "../../public/mesjid1.jpg"
 import rumah from "../../public/rumah.png"
 import desain from "../../public/desain.png"
 import desain1 from "../../public/desain1.png"
+import konstruksi from "../../public/konstruksirumah1.png"
 
 import Image from "next/image";
 
@@ -53,6 +54,30 @@ const Project2 = () => {
             <div className="relative z-10 flex items-center justify-center w-full h-auto">
               <Image
                 src={infrastruktur}
+                alt="infrastruktur"
+                
+                objectFit="contain"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            </div>
+          </div>
+          <div className="embla__slide flex items-center justify-center max-w-screen">
+            <div className="relative z-10 flex items-center justify-center w-full h-auto">
+              <video autoPlay 
+                loop 
+                muted 
+                playsInline
+                width="100%" 
+                height="auto">
+                <source src="/videos/videokonstruksi.mp4" type="video/mp4"/>
+                Video Konstruksi
+              </video>
+            </div>
+          </div>
+          <div className="embla__slide flex items-center justify-center max-w-screen">
+            <div className="relative z-10 flex items-center justify-center w-full h-auto">
+              <Image
+                src={konstruksi}
                 alt="infrastruktur"
                 
                 objectFit="contain"
